@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiLocal: "http://localhost:65432/mobile-4-sales/location/v1/search/province",
+  apiDev: "https://dev-api-ekyc.mcredit.com.vn/location-service/mobile-4-sales/location/v1/search/province",
 };
 
 /*
